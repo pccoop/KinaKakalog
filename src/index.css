@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  CSS-переменные темы (--background, --primary, --radius, --font-sans …)
+  выставляются из src/config/site.config.ts через src/config/theme.ts.
+  Если shadcn CLI допишет сюда свои :root-значения — это безопасно:
+  значения из конфига применяются инлайном и имеют приоритет.
+*/
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+}
