@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <rect width="120" height="120" rx="16" fill="#0f172a"/>
+  <!-- Top Left piece -->
+  <path d="M20 20 H100 V60 H60 V100 H20 Z" fill="#0d9488" opacity="0.9"/>
+  <circle cx="50" cy="50" r="18" fill="#14b8a6"/>
+  <text x="50" y="57" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+  <path d="M90 60 C80 60 80 80 90 80" stroke="#f8fafc" stroke-width="3" fill="none"/>
+</svg>
